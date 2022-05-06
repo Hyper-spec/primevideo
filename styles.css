@@ -130,108 +130,10 @@ footer{
     text-decoration: none;
 }
 
-.menu-wrapper .user:focus{
-    position: fixed;
-    padding: 208px 0px 208px 245px;
-    background-color: #10171d;
-    z-index: 0;
-    border-radius: 0 0 0.6rem 0.6rem;
-}
-
 .menu-wrapper .user:hover{
     border: none;
 }
 
-.menu-wrapper .user .hidden{
-    position: fixed;
-    display: block;
-    
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 130px;
-    padding-left: 20px;
-    padding-bottom: 8px;
-    visibility: hidden;
-    width: 150px;
-    z-index: 0;
-    opacity: 0;
-    transition: 0.2s;
-    transition-delay: 0.3s;
-    border-left: 1px solid rgb(105, 105, 105);
-}
-
-.menu-wrapper .user .hidden .add-new{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    color: rgb(194, 194, 194);
-    transition: 0.2s;
-}
-
-.menu-wrapper .user .hidden .add-new:hover{
-    color: white;
-}
-
-.menu-wrapper .user .hidden .add-new img{
-    height: 30px;
-    margin-right: 10px;
-}
-
-
-.menu-wrapper .user .hidden .add-new img:first-child{
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-}
-
-
-.menu-wrapper .user .hidden .add-new:not(:first-child){
-    padding-bottom: 20px;
-}
-
-
-
-.menu-wrapper .user .hidden span{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 0.9rem;
-    color: rgb(194, 194, 194);
-    transition: 0.2s;
-
-}
-
-.menu-wrapper .user .hidden span:hover{
-    color: white;
-}
-
-
-.menu-wrapper .user .hidden span:not(:first-child){
-    margin-bottom: 15px;
-}
-
-
-.menu-wrapper .user .hidden .watch-list{
-    display: block;
-    align-items: center;
-
-    width: 100%;
-
-    position: absolute;
-    right: 210px;
-    bottom: 8px;
-}
-
-.menu-wrapper .user .hidden .watch-list span{
-    margin-top: 15px;
-    font-size: 0.9rem;
-}
-
-
-.menu-wrapper .user:focus .hidden{   
-    opacity: 1;
-    visibility: visible;
-}
 
 .menu-wrapper .user .profile{
     height: 30px;
@@ -300,7 +202,7 @@ footer{
 .indicator{
     position: absolute;
     bottom: 15.8px;
-    display: flex;
+    display: none;
     width: 100%;
     z-index: 99;
     justify-content: center;

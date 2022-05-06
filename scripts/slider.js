@@ -55,7 +55,7 @@ function updateMargin() {
 
 
 //Automatic slider with setInterval (it can be changed).
-setInterval(goNext, 6000);
+setInterval(goNext, 8000);
 
 
 
